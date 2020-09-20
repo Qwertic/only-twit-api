@@ -15,12 +15,19 @@ gem 'puma', '~> 4.1'
 # gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
-
+gem 'dotenv-rails', groups: %i[development test]
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+gem 'jwt'
+# A simple, standardized way to build and use Service Objects (aka Commands) in Ruby
+gem 'simple_command'
+# Twitter gem
+gem 'twitter'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
+# allows you to generate your JSON in an object-oriented and convention-driven manner.
+gem 'active_model_serializers', '~> 0.10.10'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
